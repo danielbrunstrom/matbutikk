@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <title>Skjemaer</title>
+    <h1>Mali's</h1>
+    <h3>Special prize for you</h3>
+    <h3>Du bestiller, vi kjører hjem til deg!</h3>
+</head>
+<body>
+
+<form action="bestilling.html">
+velg mat her: <br>
+<br><p1>HOVEDRETT:</p1>     <select name="Velghovedrett" id="inphovedrett">
+        <option value="-">-</option>
+        <option value="hovedrett">Kebab i pita</option>
+        <option value="pizza">liten peperonipizza</option>
+        <option value="pizza">stor peperonipizza</option>
+        <option value="burgar">burgar 200g</option>
+        <option value="en liten">Løvstek</option>
+        <br>
+    </select>
+
+    <br><p1>SIDERETT:</p1>   <select name="siderett" id="inpsiderett"><br>
+        <option value="-">-</option>
+        <option value="pommesfrites">Pommes frites</option>
+        <option value="potetstappe">Potetstappe</option>
+        <option value="coleslaw">coleslaw</option>
+        <option value="løkringer">løkringer</option>
+        <br>
+    </select>
+
+<br><p1>DRIKKE:</p1>   <select name="DRIKKE" id="inpdrikke"><br>
+    <option value="-">-</option>
+    <option value="COCA-COLA">Coca-Cola 1,5L</option>
+    <option value="COCA-COLA">Coca-Cola 0,5L</option>
+    <option value="Fanta">Fanta 1,5L</option>
+    <option value="FANTA">Fanta 0,5L</option>
+    <option value="Sprite">Sprite 0,5L</option>
+    <option value="Sprite">Sprite 1,5L</option>
+    <option value="Vann">Vann 1L</option>
+    <br>
+</select>
+
+<br>
+
+    <p1>TILBEHØR:</p1>
+    <input type="checkbox" name="ketchup">ketchup
+    <input type="checkbox" name="salt">salt
+    <input type="checkbox" name="pepper">pepper
+    <input type="checkbox" name="rømmedressing">rømmedressing
+    <br>
+Adresse: <input type="text"
+                name="adresse"
+                placeholder="Enebakkveien 44"
+                required
+                value="">
+
+    <br><button>SEND INN</button>
+    </>
+</form>
+
+<style>
+    body{
+        background-image: url("https://cdn.cnn.com/cnnnext/dam/assets/171027052520-processed-foods-exlarge-tease.jpg");
+        background-size: cover;
+    }
+    h1{
+        font-family: "Brush Script MT";
+        font-size: 300%;
+        color: darkmagenta;
+    }
+    h3{
+        color: crimson;
+        font-size: 130%;
+    }
+</style>
+
+
+
+
+</body>
+
+</html>
